@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(129, 171, 129);
+}
+
+.warning{
+    display: none;
+}
+
+.panel{
+    width: 80%;
+    height: 90%;
+    background-color: rgb(243, 248, 243);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 50px;
+}
+
+.ptop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(68, 118, 68);
+    gap: 20px;
+    padding: 0 30%;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.elem{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.elem2{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.elem3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.pbtm{
+    width: auto;
+    height: calc(100%-100px);
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(73, 114, 73);
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(39, 92, 39);
+}
+
+@media (max-width: 950px){
+    .main{
+        display: none;
+    }
+    .warning{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .warning h1{
+        margin: 10px 10px;
+    }
+    #emo{
+        font-size: 10rem;
+    }
+}
