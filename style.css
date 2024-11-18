@@ -99,6 +99,7 @@ h2{
     background-color: rgb(73, 114, 73);
     border-radius: 50%;
     font-size: 20px;
+    color: white;
 }
 
 .bubble:hover{
